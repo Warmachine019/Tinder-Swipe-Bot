@@ -17,13 +17,6 @@ sleep(2)
 login_button = driver.find_element(By.XPATH, value='//*[text()="Log in"]')
 login_button.click()
 
-# try:
-#     sleep(2)
-#     more_options_button = driver.find_element(By.CLASS_NAME, value='Td(u) Cur(p) Typs(button-2) focus-outline-style')
-#     more_options_button.click()
-# except NoSuchElementException:
-#     sleep(1)
-
 sleep(2)
 fb_login = driver.find_element(By.XPATH,value='/html/body/div[2]/div/div[1]/div/div[1]/div/div/div[2]/div[2]/span/div[2]/button/div[2]/div[2]')
 fb_login.click()
